@@ -1,11 +1,19 @@
 # ECSE313_Group16
 
-> Donovan Crowley
-> dxc825@case.edu
+> Donovan Crowley 
+> dxc825@case.edu <br>
 > Nathaniel Hahn
 > hahn@case.edu
 
-
+```
+ECSE313_Group16
+├── Lab1
+│   ├── code.m
+│   ├── ECSE313_Lab_Instructions.pdf
+│   ├── lab_report.tex
+│   └── speech.zip
+└── README.md
+```
 
 General Lab Report Guidelines:
 * All Lab Reports must be typed and turned in on Canvas on the given due date. Late assignments
