@@ -8,10 +8,30 @@
 ```
 ECSE313_Group16
 ├── Lab1
-│   ├── code.m
+│   ├── 2.3
+│   │   ├── integ1.m
+│   │   ├── integ2.m
+│   │   └── main2_3.m
+│   ├── 2.4
+│   │   ├── main2_4.m
+│   │   └── speech.au
+│   ├── 2.5
+│   │   ├── find_energy.m
+│   │   ├── find_max.m
+│   │   ├── find_min.m
+│   │   ├── main2_5.m
+│   │   └── sinc.m
+│   ├── 2.6
+│   │   ├── main2_6.m
+│   │   └── sinc.m
+│   ├── 2.7
+│   │   └── main2_7.m
+│   ├── 2.8
+│   │   └── main2_8.m
+│   ├── 2.9
+│   │   └── main2_9.m
 │   ├── ECSE313_Lab_Instructions.pdf
-│   ├── lab_report.tex
-│   └── speech.zip
+│   └── lab_report.tex
 └── README.md
 ```
 
