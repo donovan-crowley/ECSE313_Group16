@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1770344176.74107 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab1/lab_report.tex" "lab_report.pdf" "lab_report" 1770344178.45487 0
-  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab1/lab_report.tex" 1770344176.51658 8929 009abfc73ff6a413d3665f95448e46d2 ""
+["pdflatex"] 1770346361.28425 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab1/lab_report.tex" "lab_report.pdf" "lab_report" 1770346362.98788 0
+  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab1/lab_report.tex" 1770346361.17171 8894 a45b64c80822ee2e3f812b6581a0c029 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -129,10 +129,10 @@
   "2.8/image9.png" 1770317910.56126 387214 a982e48086ef56d175550e0b3ebb95d0 ""
   "2.9/SurfacePlot.jpg" 1770306892.14767 157667 be9fba4ec66cf7a2fc2fb2e6b2e53683 ""
   "2.9/image11.jpg" 1770306892.14807 59406 55e76ca490b13896a19e58cbba9d22d3 ""
-  "lab_report.aux" 1770344178.37538 3021 ad63495fa35617af979a3f228a1abfc8 "pdflatex"
-  "lab_report.out" 1770344178.3758 1250 abefc44dc2d46aa2743d7524d259875e "pdflatex"
-  "lab_report.tex" 1770344176.51658 8929 009abfc73ff6a413d3665f95448e46d2 ""
-  "lab_report.toc" 1770344178.37593 674 9586130aace3179528f04d74771c9a2a "pdflatex"
+  "lab_report.aux" 1770346362.90667 3021 ad63495fa35617af979a3f228a1abfc8 "pdflatex"
+  "lab_report.out" 1770346362.90718 1250 abefc44dc2d46aa2743d7524d259875e "pdflatex"
+  "lab_report.tex" 1770346361.17171 8894 a45b64c80822ee2e3f812b6581a0c029 ""
+  "lab_report.toc" 1770346362.90733 674 9586130aace3179528f04d74771c9a2a "pdflatex"
   (generated)
   "lab_report.aux"
   "lab_report.log"

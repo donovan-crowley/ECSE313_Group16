@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 FEB 2026 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 FEB 2026 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -475,12 +475,12 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 <2.6/image5.png, id=87, 949.5475pt x 568.1225pt>
 File: 2.6/image5.png Graphic file (type png)
 <use 2.6/image5.png>
-Package pdftex.def Info: 2.6/image5.png  used on input line 166.
+Package pdftex.def Info: 2.6/image5.png  used on input line 167.
 (pdftex.def)             Requested size: 435.32419pt x 260.45529pt.
 <2.6/image6.png, id=88, 946.53625pt x 562.1pt>
 File: 2.6/image6.png Graphic file (type png)
 <use 2.6/image6.png>
-Package pdftex.def Info: 2.6/image6.png  used on input line 172.
+Package pdftex.def Info: 2.6/image6.png  used on input line 173.
 (pdftex.def)             Requested size: 435.32419pt x 258.51767pt.
 
 
@@ -488,12 +488,12 @@ Package pdftex.def Info: 2.6/image6.png  used on input line 172.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.175 
+l.176 
        <./2.6/image5.png>]
 <2.6/image7.png, id=107, 950.55125pt x 559.08875pt>
 File: 2.6/image7.png Graphic file (type png)
 <use 2.6/image7.png>
-Package pdftex.def Info: 2.6/image7.png  used on input line 178.
+Package pdftex.def Info: 2.6/image7.png  used on input line 179.
 (pdftex.def)             Requested size: 435.32419pt x 256.04932pt.
  (./2.6/main2_6.m
 
@@ -511,7 +511,7 @@ l.12 ylabel(
 <2.7/image8.png, id=126, 953.5625pt x 566.115pt>
 File: 2.7/image8.png Graphic file (type png)
 <use 2.7/image8.png>
-Package pdftex.def Info: 2.7/image8.png  used on input line 195.
+Package pdftex.def Info: 2.7/image8.png  used on input line 196.
 (pdftex.def)             Requested size: 435.32419pt x 258.44655pt.
 
 
@@ -519,7 +519,7 @@ Package pdftex.def Info: 2.7/image8.png  used on input line 195.
 <2.8/image9.png, id=193, 952.55875pt x 563.10374pt>
 File: 2.8/image9.png Graphic file (type png)
 <use 2.8/image9.png>
-Package pdftex.def Info: 2.8/image9.png  used on input line 217.
+Package pdftex.def Info: 2.8/image9.png  used on input line 218.
 (pdftex.def)             Requested size: 435.32419pt x 257.34679pt.
 
 
@@ -527,17 +527,17 @@ Package pdftex.def Info: 2.8/image9.png  used on input line 217.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.220 
+l.221 
        <./2.7/image8.png>]
 <2.8/image10.png, id=200, 948.54375pt x 565.11125pt>
 File: 2.8/image10.png Graphic file (type png)
 <use 2.8/image10.png>
-Package pdftex.def Info: 2.8/image10.png  used on input line 223.
+Package pdftex.def Info: 2.8/image10.png  used on input line 224.
 (pdftex.def)             Requested size: 435.32419pt x 259.35072pt.
 <2.9/image11.jpg, id=201, 1124.2pt x 843.15pt>
 File: 2.9/image11.jpg Graphic file (type jpg)
 <use 2.9/image11.jpg>
-Package pdftex.def Info: 2.9/image11.jpg  used on input line 240.
+Package pdftex.def Info: 2.9/image11.jpg  used on input line 241.
 (pdftex.def)             Requested size: 435.32419pt x 326.48567pt.
 
 
@@ -545,17 +545,17 @@ Package pdftex.def Info: 2.9/image11.jpg  used on input line 240.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.243 
+l.244 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.243 
+l.244 
        <./2.8/image9.png> <./2.8/image10.png>]
 <2.9/SurfacePlot.jpg, id=210, 1124.2pt x 843.15pt>
 File: 2.9/SurfacePlot.jpg Graphic file (type jpg)
 <use 2.9/SurfacePlot.jpg>
-Package pdftex.def Info: 2.9/SurfacePlot.jpg  used on input line 246.
+Package pdftex.def Info: 2.9/SurfacePlot.jpg  used on input line 247.
 (pdftex.def)             Requested size: 435.32419pt x 326.48567pt.
 
 
@@ -563,14 +563,14 @@ Package pdftex.def Info: 2.9/SurfacePlot.jpg  used on input line 246.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.249 
+l.250 
        <./2.9/image11.jpg>]
 
 [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.259 \end{document}
+l.258 \end{document}
                      <./2.9/SurfacePlot.jpg>] (./lab_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -582,13 +582,13 @@ Package rerunfilecheck Info: File `lab_report.out' has not changed.
 Here is how much of TeX's memory you used:
  13430 strings out of 473190
  198060 string characters out of 5715801
- 853099 words of memory out of 5000000
+ 853065 words of memory out of 5000000
  36400 multiletter control sequences out of 15000+600000
  572591 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,364b,2044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on lab_report.pdf (11 pages, 1125235 bytes).
+Output written on lab_report.pdf (11 pages, 1125206 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams
