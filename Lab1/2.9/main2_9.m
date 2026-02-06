@@ -20,12 +20,3 @@ colormap(gray(256));
 axis image;
 title('Grayscale Image');
 colorbar;
-
-
-
-% INLAB: Hand in hardcopies of your mesh plot and image. For which applications do you think the surface plot works better? When would you prefer the image?
-% The surface plot allows for closer inspection of the 3d structure and
-% characteristics like smoothness and bandwidth. Furthermore, it allows for
-% easy comparison between seperate but closely related signals. The image
-% plot allows for quick pattern detection and scale better than surface
-% plots.

@@ -23,34 +23,25 @@ title("Rect Function Graph");
 
 % Second figure with unit step
 figure(2);
-a1 = 0.8;
-a2 = 1.0;
-a3 = 1.5;
+orient('tall');
+a_vals = [0.8, 1.0, 1.5];
 n = -20:20;
 u_n = (n >= 0);
 u_n_delay = (n >= 10);
 
 % a^n (u(n) - u(n-10))
-subplot(3, 1, 1);
-y = (a1.^n) .* (u_n - u_n_delay);
-plot(n, y);
-xlabel("n");
-ylabel("a^n * (u(n) - u(n-10))");
-title("Graph using a = 0.8");
+for i = 1:length(a_vals)
+    a = a_vals(i);
+    y = (a.^n) .* (u_n - u_n_delay);
+    subplot(3, 1, i);
+    stem(n, y);
+    grid on;
 
-subplot(3, 1, 2);
-y = (a2.^n) .* (u_n - u_n_delay);
-plot(n, y);
-xlabel("n");
-ylabel("a^n * (u(n) - u(n-10))");
-title("Graph using a = 1.0");
+    xlabel("n");
+    ylabel("a^n * (u(n) - u(n-10))");
+    title(['Graph using a = ', num2str(a)]);
+end
 
-subplot(3, 1, 3);
-y = (a3.^n) .* (u_n - u_n_delay);
-plot(n, y);
-xlabel("n");
-ylabel("a^n * (u(n) - u(n-10))");
-title("Graph using a = 1.5");
 
 % Third figure with cos
 figure(3);
@@ -58,27 +49,14 @@ n = -1:10;
 u_n = (n >= 0);
 
 % cos((pi/4)n) * a^n * u(n)
-subplot(3, 1, 1);
-y = cos((pi / 4) .* n) .* (a1.^n) .* u_n;
-plot(n, y);
-xlabel("n");
-ylabel("cos((π*n)/4) * a^n * u(n)");
-title("Graph using a = 0.8");
+for i = 1:length(a_vals)
+    a = a_vals(i);
+    y = cos((pi / 4) * n) .* (a.^n) .* u_n;
+    subplot(3, 1, i);
+    stem(n, y);
+    grid on;
 
-subplot(3, 1, 2);
-y = cos((pi / 4) .* n) .* (a2.^n) .* u_n;
-plot(n, y);
-xlabel("n");
-ylabel("cos((π*n)/4) * a^n * u(n)");
-title("Graph using a = 1.0");
-
-subplot(3, 1, 3);
-y = cos((pi / 4) .* n) .* (a3.^n) .* u_n;
-plot(n, y);
-xlabel("n");
-ylabel("cos((π*n)/4) * a^n * u(n)");
-title("Graph using a = 1.5");
-
-orient('tall');
-
-% INLAB: Submit all three figures, for a total of 8 plots. Also submit the printouts of your Matlab .m-files
+    xlabel("n");
+    ylabel("cos((pi*n)/4) * a^n * u(n)");
+    title(['Graph using a = ', num2str(a)]);
+end

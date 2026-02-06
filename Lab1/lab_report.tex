@@ -18,6 +18,19 @@
     linkcolor=blue,
     urlcolor=cyan,
 }
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+    basicstyle=\ttfamily\footnotesize,
+    commentstyle=\color{green!60!black},
+    keywordstyle=\color{blue},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=single,
+}
 
 % Title and labeling
 \title{Discrete and Continuous-Time Signals \\ [1ex] \large ECSE 313 Group 16 Lab 1 Report}
@@ -29,33 +42,218 @@
 
 \maketitle 
 
-\begin{abstract}
-    Write a summary here
-\end{abstract}
-
 \tableofcontents 
 \newpage
 
-\section{Introduction}
+%\section{Introduction}
 Write an introduction here
 
 \section{Results}
-\subsection{Displaying Continuous-Time and Discrete-Time Signals in Matlab}
+% 2.3
+\subsection{Continuous-Time Vs. Discrete-Time}
 
+% Hard calculations
+Compute the integral of: \\
 
+\[
+    \int_{0}^{2\pi} \sin^{2}(5t) \, dt
+\]
+
+\[
+    \sin^{2}(5t) = \dfrac{1 - \cos(10t)}{2}
+\]
+
+\[
+    \int_{0}^{2\pi} \dfrac{1 - \cos(10t)}{2} \, dt = \int_{0}^{2\pi} \dfrac{1}{2} \, dt - \int_{0}^{2\pi} \dfrac{\cos(10t)}{2} \, dt
+\]
+
+\[
+    = \left. \frac{t}{2} \right|_{0}^{2\pi} - \left. \dfrac{\sin(10t)}{20} \right|_{0}^{2\pi}
+\]
+
+\[
+    = [\frac{2\pi}{2} - 0] - [\dfrac{\sin(20\pi)}{20} - \dfrac{\sin(0)}{20}]
+    = \pi
+\]
+
+Compute the integral of: \\
+
+\[
+    \int_{0}^{1} e^{t} \, dt
+\]
+
+\[
+    = \left. e^{t} \right|_{0}^{1} = [e^{1} - e^{0}] = e - 1
+\]
+
+\graphicspath{{2.3/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image1.png}
+    \caption{Discrete Vs. Continuous-Time of sin(n/6)}
+\end{figure}
+
+In Figure 1, the first continuous plot with a step size of 2 presents a smooth, continuous-looking representation of the graph sin(n/6).
+The second continuous plot, however, with a step size of 10 is more rigid and resembles more of a triangular function than a sine function.
+This observation is consistent with the mathematical analyses of sin(n/6), where the angular frequency is $w = 1/6$ and the period is $T = (2\pi)/w = (2\pi)/(1/6) = 12\pi$.
+Moreover, the first continuous-time signal has $(12\pi)/2 \approx 18.8$ samples per period whereas the second continuous-time signal has $(12\pi)/10 \approx 3.77$ samples per period.
+Therefore, since the first continuous-time signal has more samples per period, the function is more accurate to the sin(n/6) function.
+
+~\\\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image2.png}
+    \caption{Plotted Graphs of $I = (sin(5t))^2$ and $J = e^t$ Functions}
+\end{figure}
+
+The graphs from Figure 2 resemble the calculations of $(sin(5t))^2$ and $e^t$ made earlier in this section. 
+As $t$ increases, $I$ levels at about $\pi \approx 3.14$ and $J$ levels at about $e - 1 \approx 1.72$.
+\par
+One point of interest for the function I is the observation that $I(5) = I(10) = 0$.
+The reason for this is that when $t = 5$ and $t = 10$, the sine function argument is a multiple of $\pi$, and therefore, the result is 0.
+Mathematicaly, when $t = 5$, $\Delta t$ and the step size is $(2\pi - 0)/5 = (2\pi)/5$. Since the function starts at $t = 0$, the next $t$ value will be $2\pi/5$, and $t$ will continue to increment by $2\pi/5$.
+Furthermore, multiplying these $t$ values with the sine function argument 5t, will have t increment by $5*((2\pi)/5) = 2\pi$, which is a multiple of $\pi$. Therefore, at $t = 5$, the I function is 0.
+\par
+Similarly, at $t=10$, $\Delta t$ is $(2\pi - 0)/10 = \pi/5$. Multiplying this value with the function argument yields a result of $5*(\pi)/5 = \pi$. Therefore, at $t = 10$, the J function is 0.
+
+% 2.4
 \subsection{Processing of Speech Signals}
 
+\graphicspath{{2.4/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image3.png}
+    \caption{Speech Signal}
+\end{figure}
+
+Figure 3 represents the audio signal from the provided speech.au file. 
+The file plays the sentence "This is a test of the emergency prodcast system."
+
+% 2.5
 \subsection{Attributes of Continuous-Time Signals}
 
+\graphicspath{{2.5/}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image4.png}
+    \caption{Sinc Function Graph}
+\end{figure}
+
+The computed values of Figure 4 are as such:
+
+~\\
+\indent\indent Minimum of sinc(t) signal: -0.21723
+\\
+\indent\indent Maximum of sinc(t) signal: 0.99998
+\\
+\indent\indent Energy of the sinc(t) signal: 3.14149
+~\\
+
+The sampling period, start time, and end time choices followed the logic where the start and end times are large values and the sample period is small.
+The chosen start time is -10000 and the end time is 10000. The reason for the large sample size is to accurately measure energy with more values.
+The chosen sample period is small at 0.01 to make the plotted function accurately mimic the sinc function, as found in Section 1.3. The small sample period logic was found in Secion 2.1 of this lab, and it made the maximum and minimum values more accurate.
+
+\lstinputlisting[language=Matlab, title={find\_energy.m}]{2.5/find_energy.m}
+
+% 2.6
 \subsection{Special Functions}
 
+\graphicspath{{2.6/}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image5.png}
+    \caption{Plotted Graphs of the sinc(t) and rect(t) Functions}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image6.png}
+    \caption{Stem Graphs of an Exponential Function With Different 'a' Values}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image7.png}
+    \caption{Stem Graphs of a Cosine Function With Different 'a' Values}
+\end{figure}
+
+\lstinputlisting[language=Matlab, title={main2\_6.m}]{2.6/main2_6.m}
+
+Since the sinc function on matlab is within the Signal Processing Toolbox, we created our own sinc function:
+
+\lstinputlisting[language=Matlab, title={sinc.m}]{2.6/sinc.m}
+
+% 2.7
 \subsection{Sampling}
 
+\graphicspath{{2.7/}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image8.png}
+    \caption{Discrete-Time Signal of Sine Function With Varying Periods}
+\end{figure}
+
+With the exception of the plot where $T_s = 1/2$, each plot shows characteristics of a sine wave. 
+However, to validate the plots we will analyze how we are sampling these functions.
+\par
+The Nyquist-Shannon sampling theorem states that a continuous signal can be perfectly reconstructed with the equation: $F > 2 * f_{max}$, where F is the sampling rate and $f_{max}$ is the maximum frequency.
+The $f_{max}$ of the function $sin(2\pi * T_s * n)$ is 1 Hz, so the F of each function must be greater than 2 Hz.
+\par
+The frequencies for all the plots where $T_s = 1/10$, $T_s = 1/3$, $T_s = 1/2$, and $T_s = 10/9$ are $F = 10$ Hz, $F = 3$ Hz, $F = 2$ Hz, and $F = 9/10$ Hz respectively.
+Therfore, the bottom two plots of Figure 8 experience an aliasing effect because $1/2 < 2$ and $10/9 < 2$ and are not true sine waves.
+\par
+The sampled version of the signal with $T_s = 1/10$ is oversampled compared to the other sampled versions of the signal because the plot clearly outlines the sine function 
+
+% 2.8
 \subsection{Random Signals}
 
+\graphicspath{{2.8/}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image9.png}
+    \caption{Randomly Generated Functions Averaging to 0 (Plot 1) or 0.2 (Plot 2)}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image10.png}
+    \caption{Averages of the Plots in Figure 9}
+\end{figure}
+
+In Figure 10, as n increases, the averages of the random functions smooth to their respective values. 
+Moreover, the blue curve modeling the first plot in Figure 9 levels out to about 0 as n increases, and the red curve modeling the second plot in Figure 9 levels out to about 0.2 as n increases.
+On the other hand, at small values of n, the average of the two curves fluctuates significantly.
+\par
+Although the raw images of the two plots from Figure 9 look near identical, the results from Figure 10 clearly outlines their differences in averages.
+
+% 2.9
 \subsection{2-D Signals}
 
-\section{Conclusion}
+\graphicspath{{2.9/}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image11.jpg}
+    \caption{Grayscale Image of 2-D Image}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{SurfacePlot.jpg}
+    \caption{Surface Plot of 2-D Image}
+\end{figure}
+
+The surface plot allows for closer inspection of the 3d structure and 
+characteristics like smoothness and bandwidth. Furthermore, it allows for
+easy comparison between seperate but closely related signals. The image
+plot allows for quick pattern detection and scale better than surface
+plots.
+
+%\section{Conclusion}
 
 
 \end{document}

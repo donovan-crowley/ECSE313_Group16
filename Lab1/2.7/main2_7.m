@@ -39,5 +39,3 @@ stem(n, y);
 xlabel("n");
 ylabel("f(Tsn)");
 title("Discrete-Time Signal of Sine with Ts = 10/9");
-
-% INLAB: Submit a hardcopy of the figure containing all four subplots. Discuss your results. How does the sampled version of the signal with Ts = 1/10 compare to those with Ts = 1/3, Ts = 1/2 and Ts = 10/9?

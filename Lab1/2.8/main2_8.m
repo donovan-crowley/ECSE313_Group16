@@ -33,6 +33,3 @@ xlabel("n");
 ylabel("Random Function Averages");
 title("Averages of the Two Random Functions");
 subtitle("Blue = Random Function 1      Red = Random Function 2");
-
-
-% INLAB: Submit your plot of the two signals "sig1" and "sig2". Also submit your plot of the two signals "ave1" and "ave2". Comment on how the average values changes with n. Also comment on how the average values can be used to distinguish between random noise with different means

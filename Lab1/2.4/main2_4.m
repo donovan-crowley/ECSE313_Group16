@@ -9,5 +9,3 @@ xlabel("Time (s)");
 ylabel("Amplitude");
 title("Speech Signal");
 sound(Y, FS); % Play sound
-
-% INLAB: Submit your plot of the speech signal.

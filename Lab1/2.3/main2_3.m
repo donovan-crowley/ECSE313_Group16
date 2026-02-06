@@ -56,10 +56,6 @@ title("Function I From 0 To 2π")
 % Second plot using integ2
 subplot(2, 1, 2);
 plot(n, output2);
-ylabel("(sin(5t))^2");
+ylabel("e^t");
 xlabel("Time (s)");
 title("Function J From 0 To 1");
-
-% INLAB: Hand in your calculations of these two integrals. Show all work. 
-% INLAB: Submit a hard copy of the plots of the discrete-time function and two continuous-time functions. Label them with the title command, and include your names. Comment on the accuracy of each of the continuous time plots.
-% INLAB:  Submit plots of I (N) and J (N) versus N . Use the subplot command to put both plots on a single sheet of paper. Also submit your Matlab code for each function. Compare your results to the analytical solutions from the "Analytical Calculation" (Section 2.3.1: Analytical Calculation) section. Explain why I(5) = I(10) = 0.

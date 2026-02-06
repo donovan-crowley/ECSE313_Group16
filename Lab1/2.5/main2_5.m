@@ -1,7 +1,7 @@
-clc; clear; close all;
+%clc; clear; close all;
 
 % Sinc function
-t = linspace(-100*pi, 100*pi, 1000);
+t = -10000:0.01:10000;
 y = sinc(t/pi);
 plot(t, y);
 xlabel("Time (s)");
@@ -19,5 +19,3 @@ fprintf("Maximum of sinc(t) signal: %0.5f\n", maximum);
 % Call find_energy function and print value
 energy = find_energy(t);
 fprintf("Energy of the sinc(t) signal: %0.5f\n", energy);
-
-% INLAB: Submit a plot of the function, and the computed values of the min, max, and energy. Explain your choice of the sampling period, and the starting and ending times. Also, submit the code for your energy function.
