@@ -5,4 +5,4 @@
 \contentsline {subsection}{\numberline {1.4}Audio Filtering}{6}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Inverse Systems}{7}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}System Tests}{8}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Stock Market Example}{8}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.7}Stock Market Example}{9}{subsection.1.7}%
