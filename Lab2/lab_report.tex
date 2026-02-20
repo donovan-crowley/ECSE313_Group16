@@ -50,11 +50,126 @@
 % 3.2
 \subsection{Background Exercises}
 
+Discrete-time system approximating continuous-time functions differentiator and integrator where T represents the sampling period: \\
+
+Continuous-Time Differentiator:
+\[
+    y(t) = \frac{d}{dt} x(t)
+\]
+
+Discrete-Time Differentiator Equation:
+\[
+    \frac{dx(t)}{dt} = \frac{x(nT) - x((n-1)T)}{T}
+\]
+
+Differentiator Difference Equation:
+\[
+    y[n] = \frac{x[n] - x[n-1]}{T}
+\]
+
+Differentiator Block Diagram:
+% ADD DIAGRAM
+
+
+Continuous-Time Integrator:
+\[
+    y(t) = \int_{-\infty}^{t} x(\tau) d\tau
+\]
+
+Discrete-Time Integrator Equation:
+\[
+    y[n] = y[n-1] + Tx[n]
+\]
+
+Integrator Difference Equation:
+\[
+    y[n] = y[n-1] + Tx[n]
+\]
+
+Integrator Block Diagram:
+% ADD DIAGRAM
+
+\textbf{Equation 3.3}
+\[
+    y[n] = \frac{x[n] + x[n-1] + x[n-2]}{3}
+\]
+
+% ADD DIAGRAM
+\[
+    h[0] = \frac{1 + 0 + 0}{3} = \frac{1}{3}
+\]\[
+    h[1] = \frac{0 + 1 + 0}{3} = \frac{1}{3}
+\]\[
+    h[2] = \frac{0 + 0 + 1}{3} = \frac{1}{3}
+\]\[
+    h[n] = \frac{\delta[n] + \delta[n-1] + \delta[n-2]}{3}
+\]
+
+\textbf{Equation 3.4}
+\[
+    y[n] = 0.8y[n-1] + 0.2x[n]
+\]
+
+% ADD DIAGRAM
+
+\[
+    h[0] = 0.8(0) + 0.2(1) = 0.2
+\]\[
+    h[1] = 0.8(0.2) + 0.2(0) = 0.2 * 0.8
+\]\[
+    h[2] = 0.8(0.2 * 0.8) + 0.2(0) = 0.2*(0.8)^2
+\]\[
+    h[n] = 0.2(0.8)^nu[n]
+\]
+
+\textbf{Equation 3.5}
+\[
+    y[n] = y[n-1] + \frac{x[n] - x[n-3]}{3}
+\]
+
+% ADD DIAGRAM
+
+\[
+    h[0] = 0 + \frac{1 - 0}{3} = \frac{1}{3}
+\]\[
+    h[1] = \frac{1}{3} + \frac{0}{3} = \frac{1}{3}
+\]\[
+    h[2] = \frac{1}{3} + \frac{0}{3} = \frac{1}{3}
+\]\[
+    h[3] = \frac{1}{3} + \frac{0 - 1}{3} = 0
+\]
+\[
+    h[4] = 0 + \frac{0}{3} = 0
+\]
+\[
+    h[n] = \frac{\delta[n] + \delta[n-1] + \delta[n-2]}{3}
+\]
+
+A "moving average" is described as a sliding window of a specific length the efficiently smooths signals by removing noise while maintaining the original properties.
+Equations 3.3 and 3.5 are known as moving averages because they both are a 3-point windows that calculate the mean of the three most recent samples. 
+
 % 3.3
 \subsection{Example Discrete-Time Systems}
+\graphicspath{{3.3/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image1.png}
+    \caption{Discrete-Time Systems applying the differentiator and integrator systems}
+\end{figure}
+In Figure 1, the integrator system is unstable because there exists at least one bounded input that results in an unbounded input as seen in subplot 5.
+As n increases in subplot 5, the output stays at a constant value, and therefore the system is unstable.
+However, the differentiator system is BIBO stable because the finite input values will always be bounded and the output will never grow to infinity.
+Even for in subplot 6, the unit step value is derived to a bounded dirac delta function.
 
 % 3.4
 \subsection{Difference Equations}
+\graphicspath{{3.4/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots_3_4.jpg}
+    \caption{}
+\end{figure}
+% ADD SOME OBSERVATIONS HERE
 
 % 3.5
 \subsection{Audio Filtering}
