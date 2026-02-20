@@ -1,0 +1,36 @@
+matlab output:
+>> main3_7
+
+ testing linearity for system1 
+ error when passing in sinusoid:   0.000000
+ error when pasing in rand: 0.000000
+linear
+
+ testing linearity for system2 
+ error when passing in sinusoid:   0.000000
+ error when pasing in rand: 0.000000
+linear
+
+ testing linearity for system3 
+ error when passing in sinusoid:   0.012264
+ error when pasing in rand: 3.237421
+ likely non linear 
+
+ time invariance test for system1 
+  max error: 0.618634
+  likely time varying
+
+ time invariance test for system2 
+  max error: 0.000000
+  time-invariant
+
+ time invariance test for system3 
+  max error: 0.000000
+  time-invariant
+
+
+system1: linear and time varying
+
+system2: linear time-invariant
+
+system3: non linear time-invariant 
