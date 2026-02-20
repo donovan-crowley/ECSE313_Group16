@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1771557365.69717 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" "lab_report.pdf" "lab_report" 1771557366.71388 0
-  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" 1771557365.46591 7436 6e8517c127fed0c6030de605a37885cf ""
+["pdflatex"] 1771557891.17684 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" "lab_report.pdf" "lab_report" 1771557892.17926 0
+  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" 1771557890.93502 7445 8735e4f28c4faedd7b91bb619c7df1cc ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -108,7 +108,7 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757517249 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "3.2/equations_diagrams.png" 1771557220.50822 70862 944d333a221a730b9442e7d13daf3e68 ""
+  "3.2/equations_diagrams.png" 1771557434.32321 70862 944d333a221a730b9442e7d13daf3e68 ""
   "3.2/figure_323.png" 1771555488.50347 123599 5380e5a670417bbb7c4ff13ffbeeda23 ""
   "3.3/image1.png" 1771548510.7418 172846 a609fcba002cd1d5e70354898a7602f1 ""
   "3.4/image2.png" 1771555488.50428 39087 72ce045b64cd8ec3f1dbbc5a3d679dcb ""
@@ -120,10 +120,10 @@
   "3.6/plots.jpg" 1771551856.86767 121284 631805c4534d98d89ac713e26c07af70 ""
   "3.7/plots.jpg" 1771552263.1076 240014 70fff309a280e4cc61ca90e7ee6f32c4 ""
   "3.8/image3_8.png" 1771551970.5255 155547 323e0b71b97aa8a31073e768779d2247 ""
-  "lab_report.aux" 1771557366.64572 3020 3ce252fd0ca8acedb40a72686edeeb74 "pdflatex"
-  "lab_report.out" 1771557366.64621 1159 3d90a4ae0168b28a0b6d31d6f45c6e96 "pdflatex"
-  "lab_report.tex" 1771557365.46591 7436 6e8517c127fed0c6030de605a37885cf ""
-  "lab_report.toc" 1771557366.64637 657 51ff1c37b7a429e6968e83ceb19e304e "pdflatex"
+  "lab_report.aux" 1771557892.11195 3020 3ce252fd0ca8acedb40a72686edeeb74 "pdflatex"
+  "lab_report.out" 1771557892.11243 1159 3d90a4ae0168b28a0b6d31d6f45c6e96 "pdflatex"
+  "lab_report.tex" 1771557890.93502 7445 8735e4f28c4faedd7b91bb619c7df1cc ""
+  "lab_report.toc" 1771557892.11261 657 51ff1c37b7a429e6968e83ceb19e304e "pdflatex"
   (generated)
   "lab_report.aux"
   "lab_report.log"

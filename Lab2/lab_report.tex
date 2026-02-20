@@ -147,8 +147,8 @@ Integrator Difference Equation:
 \end{figure}
 
 
-A "moving average" is described as a sliding window of a specific length the efficiently smooths signals by removing noise while maintaining the original properties.
-Equations 3.3 and 3.5 are known as moving averages because they both are a 3-point windows that calculate the mean of the three most recent samples. 
+A "moving average" is described as a sliding window of a specific length that efficiently smooths signals by removing noise while maintaining the original properties.
+Equations 3.3 and 3.5 are known as moving averages because they both are 3-point windows that calculate the mean of the three most recent samples. 
 
 % 3.3
 \subsection{Example Discrete-Time Systems}
@@ -158,10 +158,10 @@ Equations 3.3 and 3.5 are known as moving averages because they both are a 3-poi
     \includegraphics[width=0.9\textwidth]{image1.png}
     \caption{Discrete-Time Systems Applying the Differentiator and Integrator Systems}
 \end{figure}
-In Figure 3, the integrator system is unstable because there exists at least one bounded input that results in an unbounded input as seen in subplot 5.
+In Figure 3, the integrator system is unstable because there exists at least one bounded input that results in an unbounded output as seen in subplot 5.
 As n increases in subplot 5, the output stays at a constant value, and therefore the system is unstable.
-However, the differentiator system is BIBO stable because the finite input values will always be bounded and the output will never grow to infinity.
-Even for in subplot 6, the unit step value is derived to a bounded dirac delta function.
+However, the differentiator system is BIBO stable because the finite input values will always be bounded, and the output will never grow to infinity.
+Even in subplot 6, the derivative of the unit step function is bounded to a dirac delta function.
 
 % 3.4
 \subsection{Difference Equations}
@@ -201,14 +201,14 @@ Additionally, subplot 5 follows the additive property where the result is a dire
 
 % 3.5
 \subsection{Audio Filtering}
-The S1 filter from Section 1.3 produces a higher pitch and the S2 filter has a lower pitch.
+The S1 filter from Section 1.3 produces a higher pitch and the S2 filter produces a lower pitch.
 The reason for this is because the two filters represent high-pass and low-pass filters. \\
 
 Since S1 represents a high-pass filter where the function calculates the difference between adjacent samples, the audio has a higher pitch as waves moving at higher frequences have large differences among them.
-Thus higher frequencies pass through. \\
+Thus, higher frequencies pass through. \\
 
 Conversely, S2 represents a low-pass filter that recursively smooths the average current input with previous input, restricting higher frequencies to pass through.
-Moreover, lower frequency signal's properties are preserved and are played in the audio.
+Moreover, lower frequency pass through and are heard in the audio.
 
 % 3.6
 \subsection{Inverse Systems}
@@ -245,8 +245,8 @@ Additionally, the third subplot with system3 plots a non-linear function where t
     \includegraphics[width=0.9\textwidth]{image3_8.png}
     \caption{Original Stock Market and Filtered Exchange-Rates}
 \end{figure}
-In Figure 12, subplot 2 using Equation 3.4 presents a smoother curve that is ideal for finding long-term trends in the stock market.
-However, subplot 2 is not accurate for the sporadic, short-term behavior of the stock rates.
+In Figure 12, subplot 2 using Equation 3.4 presents a smooth curve that is ideal for finding long-term trends in the stock market.
+However, subplot 2 is not accurate for analyzing the sporadic, short-term behavior of the stock market rates.
 Subplot 3 is a lighter filter that adjusts to the real-time price while maintaining a discernible pattern.
 
 \end{document}
