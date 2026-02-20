@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1771549082.45484 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" "lab_report.pdf" "lab_report" 1771549083.02098 0
-  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" 1771549081.64261 4089 5a488dd63e7a3a9558c94b8e45b58994 ""
+["pdflatex"] 1771550175.59553 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" "lab_report.pdf" "lab_report" 1771550176.29631 0
+  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab2/lab_report.tex" 1771550174.58899 4203 77599757e1e762303feb2c2c48f677b2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -110,10 +110,11 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "3.3/image1.png" 1771548510.7418 172846 a609fcba002cd1d5e70354898a7602f1 ""
   "3.4/plots_3_4.jpg" 1771540192.46511 97212 f1d802907fe7485dbf8a80e60a4f2ac4 ""
-  "lab_report.aux" 1771549082.96196 1656 a3fcd7f671651c68ca0ca62c4cbdc8a8 "pdflatex"
-  "lab_report.out" 1771549082.96245 1356 65f7315ef397e1fc7af5e916b7ebdd65 "pdflatex"
-  "lab_report.tex" 1771549081.64261 4089 5a488dd63e7a3a9558c94b8e45b58994 ""
-  "lab_report.toc" 1771549082.9626 790 092f3a77ed0776f4d1585663db1d89bd "pdflatex"
+  "3.8/image3_8.png" 1771550097.58165 155547 323e0b71b97aa8a31073e768779d2247 ""
+  "lab_report.aux" 1771550176.23807 1551 54f47b8fb13df7a50fbc0f154df20217 "pdflatex"
+  "lab_report.out" 1771550176.23857 1159 3d90a4ae0168b28a0b6d31d6f45c6e96 "pdflatex"
+  "lab_report.tex" 1771550174.58899 4203 77599757e1e762303feb2c2c48f677b2 ""
+  "lab_report.toc" 1771550176.23889 656 a72d21c7c506dffb561cf3e4726af410 "pdflatex"
   (generated)
   "lab_report.aux"
   "lab_report.log"
