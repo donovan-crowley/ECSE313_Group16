@@ -2,7 +2,7 @@
 \contentsline {subsection}{\numberline {1.1}Background Exercises}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Example Discrete-Time Systems}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Difference Equations}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Audio Filtering}{5}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Inverse Systems}{5}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}System Tests}{5}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Stock Market Example}{5}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.4}Audio Filtering}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Inverse Systems}{7}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}System Tests}{8}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Stock Market Example}{8}{subsection.1.7}%

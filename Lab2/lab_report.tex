@@ -67,10 +67,6 @@ Differentiator Difference Equation:
     y[n] = \frac{x[n] - x[n-1]}{T}
 \]
 
-Differentiator Block Diagram:
-% ADD DIAGRAM
-
-
 Continuous-Time Integrator:
 \[
     y(t) = \int_{-\infty}^{t} x(\tau) d\tau
@@ -86,8 +82,12 @@ Integrator Difference Equation:
     y[n] = y[n-1] + Tx[n]
 \]
 
-Integrator Block Diagram:
-% ADD DIAGRAM
+\graphicspath{{3.2/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figure_323.png}
+    \caption{System Diagrams Representing Continuous and Discrete-Time Integrators and Differentiators}
+\end{figure}
 
 \textbf{Equation 3.3}
 \[
@@ -154,9 +154,9 @@ Equations 3.3 and 3.5 are known as moving averages because they both are a 3-poi
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{image1.png}
-    \caption{Discrete-Time Systems applying the differentiator and integrator systems}
+    \caption{Discrete-Time Systems Applying the Differentiator and Integrator Systems}
 \end{figure}
-In Figure 1, the integrator system is unstable because there exists at least one bounded input that results in an unbounded input as seen in subplot 5.
+In Figure 2, the integrator system is unstable because there exists at least one bounded input that results in an unbounded input as seen in subplot 5.
 As n increases in subplot 5, the output stays at a constant value, and therefore the system is unstable.
 However, the differentiator system is BIBO stable because the finite input values will always be bounded and the output will never grow to infinity.
 Even for in subplot 6, the unit step value is derived to a bounded dirac delta function.
@@ -167,18 +167,72 @@ Even for in subplot 6, the unit step value is derived to a bounded dirac delta f
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{plots_3_4.jpg}
-    \caption{}
+    \caption{S1 and S2 Impulse Responses and Properties}
 \end{figure}
-% ADD SOME OBSERVATIONS HERE and system diagrams!!!
+In Figure 3, subplots 3 and 4 are identical because S1 and S2 are Linear Time-Invariant systems that when convolved with each other are equivalent under the commutative property.
+Additionally, subplot 5 follows the additive property where the result is a direct addition between the dirac delta functions in subplot 1 and subplot 2.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{input.png}
+    \caption{S1 and S2 Impulse System Diagrams}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image2.png}
+    \caption{S1(S2) Convolution System Diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image3.png}
+    \caption{S2(S1) Convolution System Diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image4.png}
+    \caption{S1 + S2 System Diagram}
+\end{figure}
+
 
 % 3.5
 \subsection{Audio Filtering}
+The S1 filter from Section 1.3 produces a higher pitch and the S2 filter has a lower pitch.
+The reason for this is because the two filters represent high-pass and low-pass filters. \\
+
+Since S1 represents a high-pass filter where the function calculates the difference between adjacent samples, the audio has a higher pitch as waves moving at higher frequences have large differences among them.
+Thus higher frequencies pass through. \\
+
+Conversely, S2 represents a low-pass filter that recursively smooths the average current input with previous input, restricting higher frequencies to pass through.
+Moreover, lower frequency signal's properties are preserved and are played in the audio.
 
 % 3.6
 \subsection{Inverse Systems}
+\graphicspath{{3.6/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots.jpg}
+    \caption{Impulse Responses of S2, S3, and S3(S2)}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image1.png}
+    \caption{System Diagram of S3}
+\end{figure}
+
 
 % 3.7
 \subsection{System Tests}
+\graphicspath{{3.7/}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots.jpg}
+    \caption{Input/Output Signals}
+\end{figure}
+
 
 % 3.8
 \subsection{Stock Market Example}
@@ -186,7 +240,10 @@ Even for in subplot 6, the unit step value is derived to a bounded dirac delta f
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{image3_8.png}
-    \caption{}
+    \caption{Original Stock Market and Filtered Exchange-Rates}
 \end{figure}
+In Figure 11, subplot 2 using Equation 3.4 presents a smoother curve that is ideal for finding long-term trends in the stock market.
+However, subplot 2 is not accurate for the sporadic, short-term behavior of the stock rates.
+Subplot 3 is a lighter filter that adjusts to the real-time price while maintaining a discernible pattern.
 
 \end{document}

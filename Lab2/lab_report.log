@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 FEB 2026 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 FEB 2026 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,15 +401,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
+<3.2/figure_323.png, id=55, 1413.28pt x 279.0425pt>
+File: 3.2/figure_323.png Graphic file (type png)
+<use 3.2/figure_323.png>
+Package pdftex.def Info: 3.2/figure_323.png  used on input line 88.
+(pdftex.def)             Requested size: 435.32419pt x 85.953pt.
 
 
-[2]
-<3.3/image1.png, id=67, 942.52126pt x 549.05125pt>
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128 \]
+         <./3.2/figure_323.png>]
+<3.3/image1.png, id=70, 942.52126pt x 549.05125pt>
 File: 3.3/image1.png Graphic file (type png)
 <use 3.3/image1.png>
 Package pdftex.def Info: 3.3/image1.png  used on input line 156.
 (pdftex.def)             Requested size: 435.32419pt x 253.58873pt.
-<3.4/plots_3_4.jpg, id=69, 1147.28625pt x 1030.85126pt>
+<3.4/plots_3_4.jpg, id=71, 1147.28625pt x 1030.85126pt>
 File: 3.4/plots_3_4.jpg Graphic file (type jpg)
 <use 3.4/plots_3_4.jpg>
 Package pdftex.def Info: 3.4/plots_3_4.jpg  used on input line 169.
@@ -417,31 +427,123 @@ Package pdftex.def Info: 3.4/plots_3_4.jpg  used on input line 169.
 
 
 [3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.173 
-       <./3.3/image1.png>]
-<3.8/image3_8.png, id=76, 948.54375pt x 546.04pt>
-File: 3.8/image3_8.png Graphic file (type png)
-<use 3.8/image3_8.png>
-Package pdftex.def Info: 3.8/image3_8.png  used on input line 188.
-(pdftex.def)             Requested size: 435.32419pt x 250.5982pt.
-
-
-[4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191 
-       <./3.4/plots_3_4.jpg>]
+l.172 I
+       n Figure 3, subplots 3 and 4 are identical because S1 and S2 are Line... <./3.3/image1.png>]
+<3.4/input.png, id=79, 441.65pt x 299.1175pt>
+File: 3.4/input.png Graphic file (type png)
+<use 3.4/input.png>
+Package pdftex.def Info: 3.4/input.png  used on input line 177.
+(pdftex.def)             Requested size: 435.32419pt x 294.8447pt.
 
-[5
+
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.192 \end{document}
-                     <./3.8/image3_8.png>] (./lab_report.aux)
+l.180 
+       <./3.4/plots_3_4.jpg>]
+<3.4/image2.png, id=85, 455.7025pt x 214.8025pt>
+File: 3.4/image2.png Graphic file (type png)
+<use 3.4/image2.png>
+Package pdftex.def Info: 3.4/image2.png  used on input line 183.
+(pdftex.def)             Requested size: 435.32419pt x 205.20183pt.
+<3.4/image3.png, id=86, 462.72874pt x 161.60374pt>
+File: 3.4/image3.png Graphic file (type png)
+<use 3.4/image3.png>
+Package pdftex.def Info: 3.4/image3.png  used on input line 189.
+(pdftex.def)             Requested size: 435.32419pt x 152.03577pt.
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.192 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.192 
+       <./3.4/input.png> <./3.4/image2.png>]
+<3.4/image4.png, id=95, 415.5525pt x 296.10625pt>
+File: 3.4/image4.png Graphic file (type png)
+<use 3.4/image4.png>
+Package pdftex.def Info: 3.4/image4.png  used on input line 195.
+(pdftex.def)             Requested size: 435.32419pt x 310.20685pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+
+ []
+
+<3.6/plots.jpg, id=96, 1684.2925pt x 1343.0175pt>
+File: 3.6/plots.jpg Graphic file (type jpg)
+<use 3.6/plots.jpg>
+Package pdftex.def Info: 3.6/plots.jpg  used on input line 216.
+(pdftex.def)             Requested size: 435.32419pt x 347.10655pt.
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.219 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.219 
+       <./3.4/image3.png> <./3.4/image4.png>]
+<3.6/image1.png, id=105, 1253.68375pt x 388.45125pt>
+File: 3.6/image1.png Graphic file (type png)
+<use 3.6/image1.png>
+Package pdftex.def Info: 3.6/image1.png  used on input line 222.
+(pdftex.def)             Requested size: 435.32419pt x 134.8812pt.
+<3.7/plots.jpg, id=106, 1933.2225pt x 1292.83pt>
+File: 3.7/plots.jpg Graphic file (type jpg)
+<use 3.7/plots.jpg>
+Package pdftex.def Info: 3.7/plots.jpg  used on input line 232.
+(pdftex.def)             Requested size: 435.32419pt x 291.11092pt.
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.235 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.235 
+       <./3.6/plots.jpg> <./3.6/image1.png>]
+<3.8/image3_8.png, id=115, 948.54375pt x 546.04pt>
+File: 3.8/image3_8.png Graphic file (type png)
+<use 3.8/image3_8.png>
+Package pdftex.def Info: 3.8/image3_8.png  used on input line 242.
+(pdftex.def)             Requested size: 435.32419pt x 250.5982pt.
+
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.249 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.249 \end{document}
+                     <./3.7/plots.jpg> <./3.8/image3_8.png>]
+
+[9] (./lab_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -450,18 +552,18 @@ Package rerunfilecheck Info: File `lab_report.out' has not changed.
 (rerunfilecheck)             Checksum: 3D90A4AE0168B28A0B6D31D6F45C6E96;1159.
  ) 
 Here is how much of TeX's memory you used:
- 12360 strings out of 473190
- 185872 string characters out of 5715801
- 595087 words of memory out of 5000000
- 35444 multiletter control sequences out of 15000+600000
+ 12440 strings out of 473190
+ 187333 string characters out of 5715801
+ 594087 words of memory out of 5000000
+ 35512 multiletter control sequences out of 15000+600000
  570433 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,321b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on lab_report.pdf (5 pages, 410785 bytes).
+Output written on lab_report.pdf (9 pages, 1028202 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
