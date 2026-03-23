@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1774238078.74004 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab3/lab_report.tex" "lab_report.pdf" "lab_report" 1774238081.6732 0
-  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab3/lab_report.tex" 1774238075.74159 12812 9a5d68d20e66681540c48c5e3595f857 ""
+["pdflatex"] 1774238205.01125 "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab3/lab_report.tex" "lab_report.pdf" "lab_report" 1774238207.68025 0
+  "/Users/donovancrowley/GithubProjects/CWRU/ECSE313_Group16/Lab3/lab_report.tex" 1774238201.98119 12835 84bb8b927f5e9616b85931ac21b49db9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -199,7 +199,6 @@
   "image15.png" 1774237130.72671 86860 8d41813273d6a5311bdf188af495d505 ""
   "image16.png" 1774237132.81192 83814 21c8297ab90216332f30865f2b612dbb ""
   "image17.png" 1774237284.29115 179111 ddd8caf22cff13c3234c8bd0e0e61ad3 ""
-  "image18.png" 1774237285.58944 79337 51adc4c6b3d8806b26351641672ac042 ""
   "image19.png" 1774238027.56797 172854 66aa22d60cc54b2364f375f69c44a92c ""
   "image2.png" 1774229478.71868 115025 d319fc21ce0c61aa9732511f5a15d6f8 ""
   "image20.png" 1774238029.12605 204509 37c7372832c62d94872f5d47f4df4c19 ""
@@ -210,10 +209,10 @@
   "image7.png" 1774236813.02007 147008 4f1757c97f5b8b4d28a49fb1f14b1765 ""
   "image8.png" 1774236813.0206 57297 06466173ef91db7c5bb627110f518a88 ""
   "image9.png" 1774236813.02127 19792 abe5de87e4aca704e1912d9fe38faf22 ""
-  "lab_report.aux" 1774238081.57601 5291 b31a2740550347938cd8d047e642041d "pdflatex"
-  "lab_report.out" 1774238081.57687 1879 0fe8eb51983a7687ea32115b06537167 "pdflatex"
-  "lab_report.tex" 1774238075.74159 12812 9a5d68d20e66681540c48c5e3595f857 ""
-  "lab_report.toc" 1774238081.57708 888 46d2f675bb52f7b4184b9f0255ea344f "pdflatex"
+  "lab_report.aux" 1774238207.58816 5177 55ce4929b30087e7d2854cbef118947a "pdflatex"
+  "lab_report.out" 1774238207.58875 1879 0fe8eb51983a7687ea32115b06537167 "pdflatex"
+  "lab_report.tex" 1774238201.98119 12835 84bb8b927f5e9616b85931ac21b49db9 ""
+  "lab_report.toc" 1774238207.58893 888 86341fecdea2a281f74e1eafac77c395 "pdflatex"
   "pi16.png" 1774236813.0297 110621 74f1c583acb6bedfaef265c2294648f0 ""
   "pi4.png" 1774236813.0308 114208 c25019db831b3ce862f15a4d0d0ffa7f ""
   "pi8.png" 1774236813.0322 116047 f353df5dcb88b6a9c79d3034d1ffcf51 ""
