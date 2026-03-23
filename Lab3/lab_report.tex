@@ -280,17 +280,32 @@ The magnitude and phase responses of Equation 21 are plotted in Figure 4
 
 \section{Continuous-Time Frequency Analysis}
 
-
-
-
 \subsection{Synthesis of Periodic Signals}
 
+Figure 7 has the highest period while Figure 6 has the lowest period. The frequency in Hertz is about the same in the Spectral Density plots.
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image17.png}
+    \caption{Preconfigured Fourier Representation of Signal}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image19.png}
+    \caption{Preconfigured Fourier Representation of Signal}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image20.png}
+    \caption{Preconfigured Fourier Representation of Signal}
+\end{figure}
 
 
 \subsection{Modulation Property}
 
-Changing the modulating frequency results in a frequency shift from 10Hz to 15Hz as shown in Figures 8*****. 
+Changing the modulating frequency results in a frequency shift from 10Hz to 15Hz. 
 The spectrum has a comb structure because the signal being modulated, triangle pulse, is periodic. Periodic signals can be represented by impulses, and the distance between the impulses is found through $f = \frac{1}{T}$.
 If the period of the triangle pulse were to increase toward infinity, the triangle pulse would no longer have a period. Therefore, the distances between the impulses become small, and the function theoretically remains continuous.
 
@@ -321,8 +336,27 @@ If the period of the triangle pulse were to increase toward infinity, the triang
 
 \subsection{System Analysis}
 
+The Network Analyzer is more powerful and gives you everything at once, but is more complex
 
+The Unit Step method is simpler but differentiation is sensitive to noise, so the impulse response will be less clean — more jaggedness in that plot compared to the Network Analyzer version.
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image14.png}
+    \caption{Output of Network Analyzer}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image15.png}
+    \caption{Output of Network Analyzer}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image16.png}
+    \caption{Magnitude, Phase, and Impulse Using Unit Step}
+\end{figure}
 
 \section{Discrete-Time Frequency Analysis}
 
@@ -349,9 +383,6 @@ If the period of the triangle pulse were to increase toward infinity, the triang
 \end{figure}
 
 \subsection{System Analysis}
-
-The complete block diagram is in Figure 8********. Figures 9, 10, and 11 represent the sine wave at different frequencies.
-Figure 12 represents the table with the theoretical values.
 
 \begin{figure}[h!]
     \centering
