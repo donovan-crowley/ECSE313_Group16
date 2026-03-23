@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 MAR 2026 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 MAR 2026 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,26 +627,209 @@ Package pdftex.def Info: image3.png  used on input line 277.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<image10.png, id=110, 947.54pt x 556.0775pt>
+File: image10.png Graphic file (type png)
+<use image10.png>
+Package pdftex.def Info: image10.png  used on input line 299.
+(pdftex.def)             Requested size: 362.77263pt x 212.89835pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image11.png, id=111, 946.53625pt x 560.0925pt>
+File: image11.png Graphic file (type png)
+<use image11.png>
+Package pdftex.def Info: image11.png  used on input line 305.
+(pdftex.def)             Requested size: 362.77263pt x 214.65771pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image12.png, id=112, 943.525pt x 555.07375pt>
+File: image12.png Graphic file (type png)
+<use image12.png>
+Package pdftex.def Info: image12.png  used on input line 311.
+(pdftex.def)             Requested size: 362.77263pt x 213.4203pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image13.png, id=113, 943.525pt x 560.0925pt>
+File: image13.png Graphic file (type png)
+<use image13.png>
+Package pdftex.def Info: image13.png  used on input line 317.
+(pdftex.def)             Requested size: 362.77263pt x 215.34998pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
 
 [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.295 \end{document}
-                     <./image2.png>]
+l.331 ...[language=Matlab, title={dtft.m}]{dtft.m}
+                                                   <./image2.png>] (./dtft.m
 
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.295 \end{document}
-                    
+l.1 %
+      Purpose: Computes the Discrete-Time Fourier Transform (DTFT) of a Signal
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.295 \end{document}
-                     <./image3.png>] (./lab_report.aux)
+l.1 %
+      Purpose: Computes the Discrete-Time Fourier Transform (DTFT) of a Signal
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1 %
+      Purpose: Computes the Discrete-Time Fourier Transform (DTFT) of a Signal <./image3.png> <./image10.png>])
+<image4.png, id=134, 948.54375pt x 561.09625pt>
+File: image4.png Graphic file (type png)
+<use image4.png>
+Package pdftex.def Info: image4.png  used on input line 335.
+(pdftex.def)             Requested size: 362.77263pt x 214.58865pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image5.png, id=135, 950.55125pt x 562.1pt>
+File: image5.png Graphic file (type png)
+<use image5.png>
+Package pdftex.def Info: image5.png  used on input line 341.
+(pdftex.def)             Requested size: 362.77263pt x 214.51794pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image6.png, id=136, 945.5325pt x 555.07375pt>
+File: image6.png Graphic file (type png)
+<use image6.png>
+Package pdftex.def Info: image6.png  used on input line 347.
+(pdftex.def)             Requested size: 362.77263pt x 212.9714pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image8.png, id=137, 773.89125pt x 330.23375pt>
+File: image8.png Graphic file (type png)
+<use image8.png>
+Package pdftex.def Info: image8.png  used on input line 358.
+(pdftex.def)             Requested size: 362.77263pt x 154.80171pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image7.png, id=138, 947.54pt x 557.08125pt>
+File: image7.png Graphic file (type png)
+<use image7.png>
+Package pdftex.def Info: image7.png  used on input line 364.
+(pdftex.def)             Requested size: 362.77263pt x 213.28264pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pi4.png, id=139, 1056.94875pt x 440.64626pt>
+File: pi4.png Graphic file (type png)
+<use pi4.png>
+Package pdftex.def Info: pi4.png  used on input line 370.
+(pdftex.def)             Requested size: 362.77263pt x 151.23643pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pi8.png, id=140, 1058.95625pt x 440.64626pt>
+File: pi8.png Graphic file (type png)
+<use pi8.png>
+Package pdftex.def Info: pi8.png  used on input line 376.
+(pdftex.def)             Requested size: 362.77263pt x 150.95404pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pi16.png, id=141, 1057.9525pt x 436.63126pt>
+File: pi16.png Graphic file (type png)
+<use pi16.png>
+Package pdftex.def Info: pi16.png  used on input line 382.
+(pdftex.def)             Requested size: 362.77263pt x 149.71852pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<image9.png, id=142, 228.855pt x 70.2625pt>
+File: image9.png Graphic file (type png)
+<use image9.png>
+Package pdftex.def Info: image9.png  used on input line 388.
+(pdftex.def)             Requested size: 362.77263pt x 111.38231pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                     <./image11.png> <./image12.png>]
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                     <./image13.png> <./image4.png>]
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                     <./image5.png> <./image6.png> <./image8.png>]
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                     <./image7.png> <./pi4.png> <./pi8.png>]
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 \end{document}
+                     <./pi16.png> <./image9.png>] (./lab_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -655,18 +838,18 @@ Package rerunfilecheck Info: File `lab_report.out' has not changed.
 (rerunfilecheck)             Checksum: 0FE8EB51983A7687EA32115B06537167;1879.
  ) 
 Here is how much of TeX's memory you used:
- 23374 strings out of 473190
- 430496 string characters out of 5715801
- 826058 words of memory out of 5000000
- 46212 multiletter control sequences out of 15000+600000
- 574425 words of font info for 78 fonts, out of 8000000 for 9000
+ 24356 strings out of 473190
+ 441176 string characters out of 5715801
+ 1031706 words of memory out of 5000000
+ 47153 multiletter control sequences out of 15000+600000
+ 575817 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,87p,513b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on lab_report.pdf (5 pages, 361146 bytes).
+ 84i,10n,87p,513b,2588s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on lab_report.pdf (10 pages, 1051267 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

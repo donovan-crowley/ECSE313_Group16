@@ -280,16 +280,114 @@ The magnitude and phase responses of Equation 21 are plotted in Figure 4
 
 \section{Continuous-Time Frequency Analysis}
 
+
+
+
 \subsection{Synthesis of Periodic Signals}
+
+
+
 
 \subsection{Modulation Property}
 
+Changing the modulating frequency results in a frequency shift from 10Hz to 15Hz as shown in Figures 8*****. 
+The spectrum has a comb structure because the signal being modulated, triangle pulse, is periodic. Periodic signals can be represented by impulses, and the distance between the impulses is found through $f = \frac{1}{T}$.
+If the period of the triangle pulse were to increase toward infinity, the triangle pulse would no longer have a period. Therefore, the distances between the impulses become small, and the function theoretically remains continuous.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image10.png}
+    \caption{Spectrum Analyzer of 2 sec Triangle Pulse at 10 Hz}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image11.png}
+    \caption{Spectrum Analyzer of 2 sec Triangle Pulse at 15 Hz}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image12.png}
+    \caption{Spectrum Analyzer of 3 sec Triangle Pulse at 10 Hz}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image13.png}
+    \caption{Spectrum Analyzer of 6 sec Triangle Pulse at 10 Hz}
+\end{figure}
+
+
 \subsection{System Analysis}
+
+
+
 
 \section{Discrete-Time Frequency Analysis}
 
 \subsection{Discrete-Time Fourier Transform}
 
+\lstinputlisting[language=Matlab, title={dtft.m}]{dtft.m}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image4.png}
+    \caption{Magnitude and Phase Responses of $X(e^{jw})$}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image5.png}
+    \caption{Magnitude and Phase Responses of $X(e^{jw})$}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image6.png}
+    \caption{Magnitude and Phase Responses of $X(e^{jw})$}
+\end{figure}
+
 \subsection{System Analysis}
+
+The complete block diagram is in Figure 8********. Figures 9, 10, and 11 represent the sine wave at different frequencies.
+Figure 12 represents the table with the theoretical values.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image8.png}
+    \caption{Completed Block Diagram of Discrete-Time System Analysis}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image7.png}
+    \caption{Impulse Response, Magnitude, and Phase of the Frequency Response}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{pi4.png}
+    \caption{Sine Wave at $w = \pi/4$}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{pi8.png}
+    \caption{Sine Wave at $w = \pi/8$}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{pi16.png}
+    \caption{Sine Wave at $w = \pi/16$}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{image9.png}
+    \caption{Table of Theoretical Values with Frequencies}
+\end{figure}
+
 
 \end{document}
