@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Sampling and Reconstruction Using Sample-and-Hold}{2}{section.1}%
+\contentsline {section}{\numberline {2}Sampling and Reconstruction Using An Impulse Generator}{2}{section.2}%
+\contentsline {section}{\numberline {3}Sampling and Reconstruction with Sample and Hold}{4}{section.3}%
+\contentsline {section}{\numberline {4}Discrete-Time Interpolation}{5}{section.4}%
+\contentsline {section}{\numberline {5}Discrete-Time Decimation}{6}{section.5}%
