@@ -61,11 +61,11 @@ The magnitude response of the sample-and-hold acts as a low pass filter. For hig
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{../image2.png}
+    \includegraphics[width=0.4\textwidth]{../image2_edit.png}
     \caption{Input/Output Signals at 0.3 Sec Pulse}
 \end{figure}
 
-The aliasing in Figure 2 is represented by the yellow curve.
+The circles in Figure 2 correspond to the aliasing of the reconstructed signal.
 
 \begin{figure}[H]
     \centering
@@ -87,13 +87,12 @@ The aliasing in Figure 2 is represented by the yellow curve.
 
 The aliasing curves in Figure 4 have a smaller width than those in Figure 2. 
 Additionally, the spectral density in Figure 5 has a lower magnitude intensity than that in Figure 3.
-
-% ADD MORE HERE !!
+These changes are caused by reducing the pulse width. When the pulse width is decreased, the average time the signal is "on" decreases and the spectral density decreases.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{../image7.png}
-    \caption{Input/Output Signals at 0.1 Sec Pulse}
+    \caption{Input/Output Signals at 0.3 Sec Pulse with 0.8 Hz}
 \end{figure}
 
 \begin{figure}[H]
@@ -101,6 +100,15 @@ Additionally, the spectral density in Figure 5 has a lower magnitude intensity t
     \includegraphics[width=0.4\textwidth]{../image6.png}
     \caption{Output Signal and Frequency Spectrum at 0.3 Sec Pulse with 0.8 Hz}
 \end{figure}
+
+The frequency peak that corresponds to the lowest frequency (the fundamental component) of the output signal in Figure 7 is 2 Hz. 
+The lowest frequency is not the same as the frequency of the input sinusoid because the lowest frequency is related to the Nyquist Frequency.
+The Nyquist Frequency is determined by the pulse width of 0.3 sec and is found by:
+\begin{equation}
+    f = \frac{1}{2 \times T} = \frac{1}{2 \times 0.3 sec} = 1.67 Hz
+\end{equation}
+
+Since aliasing occurs at frequencies greater than the Nyquist Frequency, the aliasing in Figure 7 begins at 2 Hz.
 
 \begin{figure}[H]
     \centering
@@ -114,6 +122,10 @@ Additionally, the spectral density in Figure 5 has a lower magnitude intensity t
     \caption{Output Signal and Frequency Spectrum with Butterworth Filter}
 \end{figure}
 
+The frequency of the Butterworth filter is determined by the cutoff frequency, which is 0.5 Hz. 
+For frequencies greater than the cutoff frequency in Figure 9, the Butterworth filter acts as a stopband.
+Therefore, the frequency is ~0 for frequencies greater than 0.5 Hz.
+
 \section{Sampling and Reconstruction with Sample and Hold}
 
 \begin{figure}[H]
@@ -125,16 +137,24 @@ Additionally, the spectral density in Figure 5 has a lower magnitude intensity t
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{../56image2.png}
-    \caption{Sample-and-Hold With Two Scopes}
+    \caption{Sample-and-Hold With Two Scopes With Sample Time 1 Sec}
 \end{figure}
 
-% Add explanation here
+The magnitude between Figure 10 and Figure 11 is nearly identical. 
+However, for frequencies greater than 4.5 Hz and frequencies less than 0.45 Hz, Figure 10 has a magnitude of 0 while the magnitude in Figure 11 fluctuates.
+The sample and hold filter added in Figure 11 holds the signal constant until the next sample time.
+The fluctuations in Figure 11 represent the sample period of the filter.
+The analytical representation of this phenomena is described as:
+
+\begin{equation}
+    p(t) = rect(\frac{t}{T_s} - \frac{1}{2}) = rect(\frac{0.45}{1} - \frac{1}{2}) 
+\end{equation}
 
 \section{Discrete-Time Interpolation}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{../image10.png}
+    \includegraphics[width=0.4\textwidth]{../image10_edit.png}
     \caption{Discrete Time Interpolator Scope}
 \end{figure}
 
@@ -144,6 +164,8 @@ Additionally, the spectral density in Figure 5 has a lower magnitude intensity t
     \caption{Signal.c and Frequency Spectrum}
 \end{figure}
 
+The circles in Figure 12 represent the aliasing of the signal.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{../image12.png}
@@ -152,13 +174,36 @@ Additionally, the spectral density in Figure 5 has a lower magnitude intensity t
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{../image13.png}
+    \includegraphics[width=0.4\textwidth]{../image13_edit.png}
     \caption{Signal.c and Frequency Spectrum With 4 Hz}
 \end{figure}
 
+The first aliased component and center frequency in Figure 14 is at 4 Hz because the spectral density suddenly decreases and the two peaks are centered around 4 Hz.
+The envolope shape for the spectral density represents sinc function of the Discrete-Time Filter.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{../image14.png}
+    \caption{Discrete Time Interpolator Scope With 4 Hz}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{../image15_edit.png}
+    \caption{Signal.c and Frequency Spectrum With 4 Hz}
+\end{figure}
+
+The gain and cutoff frequency used for Figures 16 and 17 are 4 and $\frac{\pi}{4}$ respectively. 
+These values clearly produce an output signal (blue curve) with the desired interpolation in Figure 16. 
+The discrete-time interpolation is desirable before reconstructing a sampled signal because the sampling rate increases and spectral density of unwanted images in low-frequency ranges are reduced.
+Therefore, a more accurate representation of the signal is produced.
 
 \section{Discrete-Time Decimation}
 
+The quality of sig1 is better than the original audio at a sampling rate of 8kHz. However, both the sig1 audio produces choppy sound quality compared to sig2. There was a noticable distortion in the sig1 audio likely produced from interpolation.
+The sig2 audio, which uses the two decimation method, plays the cleanest sound of the three signals. Furthermore, the sample-and-hold  process from the sig1 is reduced in the sig2 using a discrete-time interpolation.
+
+\lstinputlisting[language=Matlab, title={audio.m}]{../5.8/audio.m}
 
 
 \end{document}
