@@ -54,8 +54,8 @@
     \includegraphics[width=0.8\textwidth]{../Figure_1.png}
     \caption{Magnitude Response of Butterworth Filter and Sample-and-Hold Response}
 \end{figure}
-The magnitude of the Butterforth filter is greater than that with the sample-and-hold device. 
-The magnitude response of the sample-and-hold acts as a low pass filter. For high quality audio CD players, a low pass filter smooths the signal and improves audio clarity.
+The magnitude of the Butterworth filter is greater than that with the sample-and-hold device. 
+The magnitude response of the sample-and-hold acts as a low pass filter. For high quality audio CD players, a low pass filter smooths the signal and improves audio quality.
 
 \section{Sampling and Reconstruction Using An Impulse Generator}
 
@@ -105,7 +105,7 @@ The frequency peak that corresponds to the lowest frequency (the fundamental com
 The lowest frequency is not the same as the frequency of the input sinusoid because the lowest frequency is related to the Nyquist Frequency.
 The Nyquist Frequency is determined by the pulse width of 0.3 sec and is found by:
 \begin{equation}
-    f = \frac{1}{2 \times T} = \frac{1}{2 \times 0.3 sec} = 1.67 Hz
+    f = \frac{1}{2 \times T_s} = \frac{1}{2 \times 0.3 sec} = 1.67 Hz
 \end{equation}
 
 Since aliasing occurs at frequencies greater than the Nyquist Frequency, the aliasing in Figure 7 begins at 2 Hz.
@@ -179,7 +179,7 @@ The circles in Figure 12 represent the aliasing of the signal.
 \end{figure}
 
 The first aliased component and center frequency in Figure 14 is at 4 Hz because the spectral density suddenly decreases and the two peaks are centered around 4 Hz.
-The envolope shape for the spectral density represents sinc function of the Discrete-Time Filter.
+The envelope shape for the spectral density represents sinc function of the Discrete-Time Filter.
 
 \begin{figure}[H]
     \centering
