@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Introduction Exercise}{2}{section.1}%
+\contentsline {section}{\numberline {2}Histogram of an Image}{4}{section.2}%
+\contentsline {section}{\numberline {3}Pointwise Transformations}{5}{section.3}%
+\contentsline {section}{\numberline {4}Gamma Correction}{8}{section.4}%
+\contentsline {section}{\numberline {5}Image Smoothing}{11}{section.5}%
+\contentsline {section}{\numberline {6}Image Sharpening}{13}{section.6}%

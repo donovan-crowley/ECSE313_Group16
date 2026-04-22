@@ -1,0 +1,16 @@
+% Purpose: Filter an image using a guassian filter
+% Input (N, var): Size of the filter, variance
+% Output (h): NxN filter
+function h = gaussFilter(N, var)
+    if mod(N, 2) == 0
+        error('N must be an odd number to have a center element at (0,0).');
+    end
+
+    distance = floor(N / 2);
+
+    [x, y] = meshgrid(-half_size:half_size, -half_size:half_size);
+
+    h = exp(-(x.^2 + y.^2) / (2 * var));
+
+    h = h / sum(h(:));
+end
